@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2em;
+}
+
+.header {
+  padding: 1em;
+  background-color: #e95c5c;
+  border-radius: 0.3em;
+  border: 5px solid whitesmoke;
+  color: whitesmoke;
+  box-shadow: -8px 8px;
+}
+
+.count {
+  font-size: 6em;
+  margin: 1em;
+  color: whitesmoke;
+}
+
+button {
+  font-size: 2em;
+  font-weight: 900;
+  padding: 1em 2em;
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: gold;
+  border-radius: 0.5em;
+  box-shadow: -3px 5px;
+  cursor: pointer;
+}
