@@ -9,15 +9,11 @@ export default function App() {
   //   return setCount(count-1);
   // }
   function Decrement() {
-    return setCount((prevCount) => {
-      return prevCount - 1;
-    });
+    setCount((prevCount) => prevCount - 1);
   }
 
   function Increment() {
-    return setCount((prevCount) => {
-      return prevCount + 1;
-    });
+    setCount((prevCount) => prevCount + 1);
   }
 
   // function Increment() {
@@ -25,9 +21,7 @@ export default function App() {
   // }
 
   function Reset() {
-    return setCount((prevCount) => {
-      return (prevCount = 0);
-    });
+    setCount(0);
   }
 
   return (
